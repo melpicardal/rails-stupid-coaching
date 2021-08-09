@@ -1,0 +1,16 @@
+<div class="container">
+<h1>Stupid Coaching</h1>
+<div class="container">
+<blockquote class="blockquote">
+  <p class="mb-0"><%= params[:question] %></p>
+  <footer class="blockquote-footer"><cite title="Source Title">You</cite></footer>
+</blockquote>
+</div>
+<div class="container">
+<blockquote class="blockquote">
+  <p class="mb-0"><%= @answer %></p>
+  <footer class="blockquote-footer"><cite title="Source Title">Stupid Coach</cite></footer>
+</blockquote>
+</div>
+  <%= link_to 'Ask a new question', ask_path %>
+</div>
